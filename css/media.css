@@ -1,0 +1,40 @@
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {
+
+    .header-content h1 {
+        font-size: 44px;
+        line-height: 53px;
+        font-weight: 200;
+    }
+
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .header-content h1 {
+        font-size: 60px;
+        line-height: 72px;
+        font-weight: 200;
+    }
+
+    .about .about-img::after {
+        content: "";
+        position: absolute;
+        background-image: url(../imgs/dots.png);
+        width: 85%;
+        height: 85%;
+        left: -26px;
+        bottom: -33px;
+        background-repeat: repeat;
+        z-index: -1;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {}
+
+/* 2xl */
+@media (min-width: 1536px) {}
